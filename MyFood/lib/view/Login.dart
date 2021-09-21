@@ -1,7 +1,7 @@
 import 'dart:ui';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:MyFoodLogin/theme/approutes.dart';
+import 'package:myfood/theme/approutes.dart';
 
 import './Register.dart';
 import './ForgotPassword.dart';
@@ -182,11 +182,11 @@ class LoginState extends State<LoginScreen> {
                         onPressed: () async {
                           await Firebase.initializeApp();
                           try {
-                            UserCredential user = await FirebaseAuth.instance
+                            /*UserCredential user = await FirebaseAuth.instance
                                 .signInWithEmailAndPassword(
                                     email: userController.text,
-                                    password: passwordController.text);
-                            final uid = user.user.uid;
+                                    password: passwordController.text);*/
+                            //final uid = user.user.uid;
                             Navigator.of(context).pushNamed(Routes.main_page);
                           } on FirebaseAuthException catch (e) {
                             if (e.code == 'user-not-found') {

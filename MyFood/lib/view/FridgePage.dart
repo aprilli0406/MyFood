@@ -1,10 +1,10 @@
-import 'package:MyFoodLogin/view/MainPage.dart';
+import 'package:myfood/view/MainPage.dart';
 import 'package:flutter/material.dart';
-import 'package:MyFoodLogin/view/FreezerPage.dart';
-import 'package:MyFoodLogin/view/PantryPage.dart';
-import 'package:MyFoodLogin/view/AllFoodPage.dart';
-import 'package:MyFoodLogin/view/DairyPage.dart';
-import 'package:MyFoodLogin/view/ProducePage.dart';
+import 'package:myfood/view/FreezerPage.dart';
+import 'package:myfood/view/PantryPage.dart';
+import 'package:myfood/view/AllFoodPage.dart';
+import 'package:myfood/view/DairyPage.dart';
+import 'package:myfood/view/ProducePage.dart';
 import 'MeatPage.dart';
 
 class FridgePage extends StatefulWidget {

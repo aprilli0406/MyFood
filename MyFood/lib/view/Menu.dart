@@ -15,8 +15,7 @@ class MenuState extends State<Menu> {
         child: RaisedButton(
           child: Text("Return to login"),
           onPressed: () {
-            Navigator.push(context,
-                MaterialPageRoute(builder: (context) => LoginScreen()));
+            Navigator.pop(context);
           },
         ),
       ),

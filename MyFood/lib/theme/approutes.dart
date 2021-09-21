@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:MyFoodLogin/view/Login.dart';
-import 'package:MyFoodLogin/view/Register.dart';
-import 'package:MyFoodLogin/view/MainPage.dart';
+import 'package:myfood/view/Login.dart';
+import 'package:myfood/view/Register.dart';
+import 'package:myfood/view/MainPage.dart';
 
 class Routes {
   Routes._();
@@ -14,7 +14,6 @@ class Routes {
     return {
       auth_login: (context) => LoginScreen(),
       auth_register: (context) => RegisterScreen(),
-
       main_page: (context) => MainPage()
     };
   }
